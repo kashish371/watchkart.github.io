@@ -1,0 +1,430 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+ background-color: rgba(240, 255, 255, 0.49);   
+ font-family: 'Kanit', sans-serif;
+}
+
+header{
+    height: 10vh;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo, .icons{
+width: 50%;
+
+height: 100%;
+}
+
+.logo{
+    font-size: 3vw;
+    color: rgb(209, 53, 79);
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+}
+
+.logo-name{
+    margin: 0 2vw;
+    width: 25%;
+}
+
+.search-bar{
+/* width: 40%; */
+display: flex;
+height: 50%;
+}
+
+
+.srh {
+    /* color: red; */
+    text-align: left;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    letter-spacing: 4px;
+    text-shadow: 0 0 2px black;
+    word-spacing: 20px;
+    border: none;
+    background: white;
+  }
+
+
+
+  .search-btn{
+    padding: 0.5vw 1.5vw;
+        font-family: "kanit";
+    padding: 0.2vw 1.5vw;
+    font-size: 1.5vw;
+    border-radius: 0.2vw;
+    border: none;
+    background-color: rgb(209, 53, 79);
+color: white;
+  }
+
+  .search-btn i{
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .icons{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+padding: 0 2vw;
+  }
+
+  .menu-icon{
+    flex-direction: column;
+        display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid rgb(209, 53, 79); */
+    width: 9%;
+    height: 80%;
+  }
+
+  .menu-icon span{
+    border: 0.5vh solid rgb(209, 53, 79);
+    width: 80%;
+    border-radius: 0.5vw;
+  }
+
+
+  
+
+
+.product{
+ width: 95%;
+ background-color: antiquewhite;
+ height: 80vh;
+ margin: 4vh auto;
+ /* border: 1px solid red; */
+ display: flex;
+}
+
+.image-container{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid blue; */
+    display: flex;
+}
+ /* footer css is here */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Condensed:wght@300&display=swap');
+ body{
+   line-height: 1.5;
+   font-family:'Poppins', sans-serif;
+font-family : 'Roboto Condensed', sans-serif;
+ }
+       *{
+           margin: 0;
+           padding:0;
+           box-sizing: border-box;
+       }
+       .container{
+           max-width: 1170px;
+           margin: auto;
+       }
+       .row{
+           display: flex;
+           flex-wrap: wrap;
+       }
+       ul{
+           list-style: none;
+       }
+       .footer{
+           background-color: #24262b;
+           padding: 70px 0;
+       }
+       .footer-col{
+           width: 25%;
+           padding: 0 15px;
+           
+       }
+       .footer-col h4 {
+           font-size: 18px;
+           color: #ffffff;
+           text-transform: capitalize;
+           margin-bottom: 35px;
+           font-weight: 500;
+           position: relative;
+           
+
+       }
+       .footer-col h4::before{
+           content: '';
+           position: absolute;
+           left: 0;
+           bottom: -10px;
+           background-color: #e91e63;
+           height: 2px;
+           box-sizing: border-box;
+           width: 50px;
+
+
+       }
+       .footer-col ul li:not(:last-child){
+           margin-bottom: 10px;
+       }
+       
+       .footer-col ul li a{
+           font-size: 16px;
+           text-transform: capitalize;
+           color: #ffffff;
+           text-decoration: none;
+           font-weight: 300;
+           color: #bbbbbb;
+           display: block;
+           transition: all 0.3s ease;
+       }
+       .footer-col ul li a:hover{
+           color: #ffffff;
+           padding: 8px;
+       }
+
+       .footer-col .social-links a{
+           display: inline-block;
+           height: 40px;
+           width: 40px;
+           background-color: rgb(255,255,255,0.2);
+           margin: 0 10px 10px 0;
+           text-align: center;
+           line-height: 40px;
+           border-radius: 50%;
+           color: #ffffff;
+           transition: all 0.5s ease;
+       }
+       .footer-col .social-links a:hover{
+           color: #24262b;
+           background-color: #ffffff;
+       }
+
+.image-gallery-vertical{
+    width: 15%;
+    /* border: 1px solid red; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.image{
+    margin: 5% 0;
+width: 80%;
+height: 15%;
+/* border: 1px solid red; */
+}
+
+.image-big{
+    width: 85%;
+    height: 100%;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.image-big-container{
+    width: 90%;
+    /* border: 1px solid orange; */
+    height: 90%;
+    background: url("/web\ img/1_Smart-Watch_480x.webp");
+    background-size: contain;
+    border-radius: 1vw;
+}
+/* yaha se */
+.one{
+    background: url("/images/images/2_SCRATCH-_-DENT-SALE_480x.webp");
+    background-size: contain;
+}
+
+.two{
+    background: url("/images/images/3_Work-Wear_480x.webp");
+    background-size: contain;
+}
+
+.three{
+    background: url("/images/images/Gifting_480x.webp");
+    background-size: contain;
+}
+
+.product-desp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid blue; */
+    /* background-color: none; */
+}
+
+/* .product-desp div{
+    width: 80%;
+    border: 1px solid red;
+    margin: 0 auto;
+    height: 2vw;
+} */
+
+.product-name{
+    font-size: 1.1vw;
+    /* border: 1px solid red; */
+    color: grey;
+    margin: 0 auto;
+    height: auto;
+    padding: 1vw;
+    width: 80%;
+}
+
+.product-price{
+    font-size: 1.5vw;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    height: auto;
+    padding: 1vw;
+    width: 80%;
+}
+
+.product-rate{
+    font-size: 1.3vw;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    height: auto;
+    padding: 1vw;
+    width: 80%;
+
+}
+
+.product-rate div{
+background-color: lightgreen;
+border-radius: 1vw;
+width: 15%;
+text-align: center;
+padding: 0.2vw 1vw;
+}
+
+.buy-btn{
+    font-size: 1.5vw;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    height: auto;
+    /* padding: 1vw; */
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;    
+}
+
+.buy-btn button{
+    font-family: "kanit";
+    padding: 0.2vw 1.5vw;
+    font-size: 1.5vw;
+    border-radius: 0.2vw;
+    border: none;
+
+}
+
+.one-btn{
+color: rgb(209, 53, 79);
+background-color: white;
+}
+
+.two-btn{
+background-color: rgb(209, 53, 79);
+color: white;
+}
+
+.product-details{
+    font-size: 1.1vw;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    height: auto;
+    padding: 1vw;
+    width: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+.rate{
+    width: 80vw;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 1vw;
+    border-radius: 0.5vw;
+}
+
+
+.heading {
+    font-size: 25px;
+    margin-right: 25px;
+  }
+  
+  .fa {
+    font-size: 25px;
+  }
+  
+  .checked {
+    color: orange;
+  }
+  
+  /* Three column layout */
+  .side {
+    float: left;
+    width: 15%;
+    margin-top:10px;
+  }
+  
+  .middle {
+    margin-top:10px;
+    float: left;
+    width: 70%;
+  }
+  
+  /* Place text to the right */
+  .right {
+    text-align: right;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* The bar container */
+  .bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Individual bars */
+  .bar-5 {width: 60%; height: 18px; background-color: #04AA6D;}
+  .bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+  .bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+  .bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+  .bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+  

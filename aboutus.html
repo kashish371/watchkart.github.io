@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watchkart</title>
+    <style>
+        body {
+            background-color: rgb(203, 251, 250);
+            font-family: verdana;;
+            margin: 0;
+            padding: 0;
+        }
+        ul {
+            background-color: black;
+            color: white;
+            padding: 10px 30px;
+            overflow: hidden;
+            font-weight: bold;
+        }
+        #nav {
+            font-size: larger;
+            float: left;
+        }
+        #nav:hover {
+            color: white;
+            cursor: default;
+        }
+        li {
+            list-style-type: none;
+            color: white;
+            display: inline;
+            float: right;
+            padding: 15px;
+            font-size: 15px;
+            transition: 0.5s ease;
+            letter-spacing: 2px;
+        }
+        li:hover {
+            color: cyan;
+            cursor: pointer;
+            font-size: 16px;
+            transition: 0.5s ease;
+        }
+        h1{
+            font-size: 35px;
+            text-align: center;
+        }
+        p,.info p{
+            padding: 6px;
+            width:90%;        
+            margin: auto;   
+            font-family: verdana;
+            font-size: 18px;
+        } 
+        .center{
+            background-color: #fff;
+            border:none ;
+            box-shadow: -8px 1px 15px -0.10px ,8px -1px 5px -1px#364044;
+            border-radius: 10vh;
+            width: 90%;
+            margin: 5% 2%;
+            padding: 3%;
+        } 
+        h4{
+            text-align: center;
+            margin-top: 2% ;
+            margin-left: 6%;
+            font-size: 27px;
+            font-weight: 1000;
+        } 
+        button:hover{
+            font-size: large;
+            font-family:verdana;
+            color: #364044;
+            background-color:transparent;
+            text-decoration: underline;
+            border: none
+        }
+        .btn {
+            margin-left: 35%;
+            margin-bottom: 5%;
+        }
+        button{
+            background-color: #364044;
+            color: white;
+            padding: 4px 14px;
+            margin: 3% 10%;
+            border: none;
+            cursor: pointer;
+            margin: 1% ;
+            }
+        .info b{
+            font-size: 23px;
+        }
+        .care p b{
+            display: inline-block;
+            font-size: larger;
+            margin: bottom 0px;
+            padding:  10px;
+        } 
+        .left{
+            position: absolute;
+            right: 0px;
+            width: 45%;
+            float: right;
+        }
+        hr{
+            width: 20%;
+            display: inline-block;
+        }
+        h2{
+            display: inline-block;
+        }
+        .post{
+            text-align: center;
+            margin-top: 5%;
+        }
+        .comment input[type=text] ,[ type="email"]{
+        margin-left:3%;
+        font-size: medium;
+        cursor: pointer;
+        }
+        .comment #name{
+            margin-left: 25%;
+        }
+        #advise{
+            position:relative;
+            left: 23%;
+            margin-top:3%;
+            display: block;
+        }
+        .bt {
+            margin: 3% 10%;
+        }
+        img{
+            margin-left:2%;
+            width: 50px;
+        }     
+        img:hover {
+            width: 5vh;
+        }  
+        h3{
+            font-size: 24px;
+        }  
+        li a{
+            text-decoration: none;
+            color: aliceblue; 
+        }
+        li a:hover{
+            color: cyan;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <a href="aboutus.html"><li>ABOUT US</li></a>
+        <a href="product.html"><li>PRODUCT</li></a>
+       <a href="category.html"><li>CATEGORY</li></a>
+        <li><a href="index.html">HOME</a></li>
+        <li id="nav">WATCHKART</li>
+    </ul>
+    <h1>About Watchkart</h1>
+
+    <div class="about">
+        <p>WatchKart is an online retailer of men and women’s watches. It is owned and operated by Valyoo Technologies. Headquartered in New Delhi, WatchKart showcases the latest collection of branded and designer watches, clocks and pens.</p>
+
+        <p>xProducts on the website can be shopped according to price, brand, strap material, color, case shape etc. Also on each product, the page provides the product description, technical details, reviews, among others.</p>
+        <p>
+        Some of the popular brands found include Casio, Citizen, Espirit, Fastrack, Fossil, Guess, Maxima, Police, Q & Q, Seiko, Swatch, Sonata, Titan, Timex , Tommy Hilfiger, Burg, Calvin Klein, Diesel, DKNY, Emporio Armani, French Connection, Hush Puppies, Nautica, Sony, Swiss Eagle, Rotary and Wenger.
+        </p>
+        <p>            
+        Purchases online can be made by debit card, credit card, net banking, cheque / DD and cash on delivery.
+        The estimated time of delivery is 5-10 working days. All products are delivered through reputed courier service. WatchKart offers a 14-days return policy on all products. They must be unworn and returned with tags, warranty and sealed box.
+        </p>
+        <p>
+        For questions or assistance on new or existing orders please reach the WatchKart customer care via phone or email.</p>
+    </div>
+
+    <div class="center">
+    <div class="contect">
+        <h4>Contact Us</h4>
+            <button class="btn">Contact Merchant</button>
+            <button>Contact WatchKart</button>
+            <button>Customer Care</button>
+    </div>
+    <div class="info">
+        <p class="pa"><b>Contact WatchKart</b>: Find below customer care, phone of WatchKart. Besides contact details, the page offers information and links on WatchKart services. Reach the WatchKart customer care for questions on new orders, tracking existing orders, seeking refund or return, etc.</p>
+    </div>
+
+    <div class="care">
+        <div class="left">
+            <p><b>WatchKart Customer Care</b><br> <p> phone : 7222986811 <br> Email: support@watchkart.com</p>
+        </div>
+        <div class="right">
+            <p><b>WatchKart Head Office</b><br>Valyoo Technologies Pvt. Ltd.<br>T-27, Okhla Phase-2 <br>New Delhi, India</p>
+        </div>
+    </div>
+    <div class="media">
+        <h3>Follow us </h3>
+                     <!-- twitter -->
+        <a href="#""><img src="./web img/twitter_logo.png" alt="twitter"></a>
+        
+
+                    <!-- linkedin -->
+        <a href="#"><img src="./web img/linkedin_logo.png" alt="linkedin"></a>
+         
+                    <!-- instagram -->
+        <a href="#"><img src="./web img/instagram_logo.png" alt="instagram"></a>
+
+                    <!-- facebook -->
+        <a href="#"><img src="./web img/fb_logo.png" alt="facebook"></a>
+    </div>
+</div>
+    
+
+</body>
+</html>

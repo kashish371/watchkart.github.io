@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* nave barr css */
+        nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.logo a {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-links li {
+  margin: 0 10px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #f00;
+  text-decoration: underline;
+}
+/*  nave bar css end */
+
+
+        /* first row */
+        .product-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.product img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.product h3 {
+  margin: 10px 0;
+  font-size: 24px;
+}
+
+.product p {
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.product button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.product button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+/* first row end  */
+
+ /* footer css is here */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Condensed:wght@300&display=swap');
+  body{
+    line-height: 1.5;
+    font-family:'Poppins', sans-serif;
+font-family : 'Roboto Condensed', sans-serif;
+  }
+        *{
+            margin: 0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        .container{
+            max-width: 1170px;
+            margin: auto;
+        }
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        ul{
+            list-style: none;
+        }
+        .footer{
+            background-color: #24262b;
+            padding: 70px 0;
+        }
+        .footer-col{
+            width: 25%;
+            padding: 0 15px;
+            
+        }
+        .footer-col h4 {
+            font-size: 18px;
+            color: #ffffff;
+            text-transform: capitalize;
+            margin-bottom: 35px;
+            font-weight: 500;
+            position: relative;
+            
+
+        }
+        .footer-col h4::before{
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+            background-color: #e91e63;
+            height: 2px;
+            box-sizing: border-box;
+            width: 50px;
+
+
+        }
+        .footer-col ul li:not(:last-child){
+            margin-bottom: 10px;
+        }
+        
+        .footer-col ul li a{
+            font-size: 16px;
+            text-transform: capitalize;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 300;
+            color: #bbbbbb;
+            display: block;
+            transition: all 0.3s ease;
+        }
+        .footer-col ul li a:hover{
+            color: #ffffff;
+            padding: 8px;
+        }
+
+        .footer-col .social-links a{
+            display: inline-block;
+            height: 40px;
+            width: 40px;
+            background-color: rgb(255,255,255,0.2);
+            margin: 0 10px 10px 0;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 50%;
+            color: #ffffff;
+            transition: all 0.5s ease;
+        }
+        .footer-col .social-links a:hover{
+            color: #24262b;
+            background-color: #ffffff;
+        }
+        /* footer css end here */
+
+    </style>
+</head>
+<body>
+<br>
+    <nav>
+        <div class="logo">
+          <a href="#">WatchKart</a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="category.html">CATEGORY</a></li>
+          <li><a href="product.html">PRODUCT</a></li>
+          <li><a href="aboutus.html">ABOUT US</a></li>
+        </ul>
+      </nav>
+      <br>
+
+    <!-- first row html -->
+    
+      <img src="./web img/titane smart.webp" style="width: 100%">
+      <center><u><h1 style= font-family:Brush cursive; color: rgb(0, 0, 0)">Smart Watch</h1></u></center>
+    <h5 style="text-align: center; color: rgb(0, 0, 0)">
+        Small smartphonelike device worn on the wrist. Many smartwatches are connected to a smartphone that notifies the user of incoming calls, e-mail messages, and notifications from applications.
+    </h5>
+    <div class="product-container">
+        <div class="product">
+          <img src="./web img/titane sq.webp" alt="Watch 1">
+          <p>Titan Talk- Touch Screen Watch with Blue Strap, BT Calling, AI- Voice Assistant, and Amoled Display</p>
+          <p>$100</p>
+          <button>Add to Cart</button>
+        </div>
+        
+        <div class="product">
+          <img src="./web img/titen.webp" alt="Watch 2">
+          <p>Titan Talk S with 1.78" AMOLED Display, Advanced BT Calling, Modes, Stress & Mood Monitoring</p>
+          <p>$150</p>
+          <button>Add to Cart</button>
+        </div>
+        
+        <div class="product">
+          <img src="./web img/1.webp" alt="Watch 3">
+          <p>Titan Smart- Touch Screen Watch with Blue Strap, Built-in-Alexa, Health tracker, & Water Resistant,100+ modes </p>
+          <p>$200</p>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+<!-- end of first cetegory -->
+
+
+
+
+<!-- second row html -->
+      
+    <img src="./web img/img-version-two-social-media-horizontal.jpg"  width="100%">
+    <center><u><h1 style= font-family:Brush cursive; color: rgb(0, 0, 0)">Digital Watch</h1></u></center>
+    <h5 style="text-align: center; color: rgb(0, 0, 0)">
+        Watch that displays the time in numerical digits rather than by hands on a dial.
+    </h5>
+    <div class="product-container">
+      <div class="product">
+        <img src="./web img/d1.webp" alt="Watch 1">
+        <p>V2A Black Dial Digital Sports Watch 5ATM Waterproof with Alarm and Stopwatch </p>
+        <p>$100</p>
+        <button>Add to Cart</button>
+      </div>
+      
+      <div class="product">
+        <img src="./web img/d2.webp" alt="Watch 2">
+        <p>7-LED Light Alarm Premium Quality Semi Water&Shock Resistant WatchWrist </p>
+        <p>$150</p>
+        <button>Add to Cart</button>
+      </div>
+      
+      <div class="product">
+        <img src="./web img/d3.webp" alt="Watch 3">
+        <p>For Boys Fashion Cool men's sports watch for men Luminous Waterproof Digital </p>
+        <p>$200</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+    <!-- end of second row  -->
+
+
+
+    <!-- start of third row -->
+
+
+   
+    <img src="./web img/Tissort_1920_x_667_px.webp"  width="100%">
+    <center><u><h1 style= font-family:Brush cursive; color: rgb(0, 0, 0)">Analog Watch</h1></u></center>
+    <h5 style="text-align: center; color: rgb(0, 0, 0)">
+        a watch that displays the time in numerical digits rather than by hands on a dial.
+    </h5>
+    <div class="product-container">
+      <div class="product">
+        <img src="./web img/watch1.jpg" alt="Watch 1">
+        <p> A watch to reflect yor personality</p>
+        <p>$100</p>
+        <button>Add to Cart</button>
+      </div>
+      
+      <div class="product">
+        <img src="./web img/watch2.jpg" alt="Watch 2">
+        <p>Let someone's dupatta get stuck in it</p>
+        <p>$150</p>
+        <button>Add to Cart</button>
+      </div>
+      
+      <div class="product">
+        <img src="./web img/watch3.jpg" alt="Watch 3">
+        <p>Why to think so much before flexing?</p>
+        <p>$200</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+    <!-- end of third row -->
+
+
+
+      
+      <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>QUICK-LINK</h4>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="category.html">CATEGORY </a></li>
+                        <li><a href="addi.html">PRODUCT</a></li>
+                        <li><a href="aboutus.html">ABOUT US</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>LOCATION</h4>
+                    <ul>
+                        <li><a href="#">DELHI</a></li>
+                        <li><a href="#">MUMBAI</a></li>
+                        <li><a href="#">BANGLORE</a></li>
+                        <li><a href="#">INDORE</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                  <h4>Titan Official Website</h4>
+                  <ul>
+                      <li><a href=" https://www.titan.co.in/shop/watches?utm_source=google&utm_medium=cpc&utm_campaign=MS_Titan_Google_Brand-search_TitanwatchesOpenTargeting2_Exact_Perf_010720&utm_content=20738754177&gad_source=1&gclid=Cj0KCQiAzoeuBhDqARIsAMdH14E4iGs2wtOmMLrSAiG1-cHuoaw0I0CfuPzUe3o2RB9rT9tLfdUEXMEaArTSEALw_wcB">Titan</a></li>
+                      
+                  </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow-us</h4>
+                    <div class="social-links">
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="# "><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                      <a href="#"><i class="fab fa-telegram"></i></a>
+                      <a href="#"><i class="fab fa-github"></i></a>
+                  </div>
+                </div>
+            </div>
+        </div>
+       
+    </footer>
+      
+</body>
+</html>
